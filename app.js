@@ -93,10 +93,12 @@ const init = function() {
 			console.log(searchBar)
 			if(searchBar.toLowerCase()==getPokemon(i).name){
 				renderPokemon(getPokemon(i))
+				pokemonId=i
 				found=true
 			}
 			if(i==8 && searchBar>=1 && searchBar<=9){
 				renderPokemon(getPokemon(searchBar-1))
+				pokemonId=searchBar-1
 				found=true
 			}
 		}
