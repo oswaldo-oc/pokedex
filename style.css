@@ -14,7 +14,7 @@ input {
 }
 
 button{
-	width: 100px;
+	width: 80px;
 	height: 30px;
 	font-size: 16px;
 	background-color: #D3D3D3;
@@ -34,8 +34,8 @@ button{
 
 .screen {
 	background-color: #D3D3D3;
-	width: 380px;
-	height: 380px;
+	width: 360px;
+	height: 360px;
 	justify-content: center;
 	align-items: center;
 	display: flex;
@@ -46,5 +46,5 @@ button{
 
 
 .img {
-	width: 250px;
+	width: 220px;
 }
